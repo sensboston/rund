@@ -80,6 +80,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>signtool sign /n "Open Source Developer, Sergey SVINOLOBOV"  /tr http://timestamp.digicert.com /td sha256 /fd sha256 /a $(TargetPath)</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
