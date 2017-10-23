@@ -25,7 +25,7 @@ public class Program
                 try { p.Start(); } catch (Exception e) { Console.WriteLine(e.Message); }
                 return;
             }
-            Console.WriteLine("Please provide a program name [with arguments]");
         }
+        Console.WriteLine("Please provide a program name [with arguments]");        
     }
 }
